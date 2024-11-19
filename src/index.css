@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Roobto";
+  src: url("../public/Roboto-Light.ttf") format("truetype");
+}
+
+/* Applying the fonts */
+.standard-font {
+  font-family: "Roobto";
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
